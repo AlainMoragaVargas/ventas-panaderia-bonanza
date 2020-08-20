@@ -32,7 +32,7 @@ Entre al archivo conexion.php y cambie las credenciales por las suyas.
 
 Desplegar el proyecto
 -----------
-* En el caso de linux, copie el repositorio en el directorio ```/var/www/html/``` y luego escriba en su terminal ```sudo apache2 start``` para iniciar el servicio de apache2.
+* En el caso de linux, copie el repositorio en el directorio ```/var/www/html/``` y luego escriba en su terminal ```sudo service apache2 start``` para iniciar el servicio de apache2.
 * En el caso de windows, copie el repositorio en la carpeta htdocs de xampp e inicie el servicio de xampp en el panel de control.
 
 Entrar el proyecto
