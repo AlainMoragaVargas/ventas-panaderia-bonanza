@@ -1,0 +1,15 @@
+#myTable_previous,#myTable_next,.dataTables_empty
+{
+  display:none;
+}
+
+table.dataTable thead th {
+border-bottom: 0;
+}
+table.dataTable tfoot th {
+border-top: 0;
+}
+
+table.dataTable.no-footer {
+border-bottom: 0;
+}

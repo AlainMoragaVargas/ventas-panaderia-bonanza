@@ -1,0 +1,22 @@
+CREATE TABLE venta_provisoria
+(
+    id_venta_prov int auto_increment primary key,
+    valor_venta_prov int not null,
+    fecha_venta_prov date not null,
+    hora_venta_prov time not null
+)
+
+CREATE TABLE ventas_totales
+(
+	id_ventas_totales int auto_increment primary key,
+    valor_total int not null,
+    fecha_ventas_totales date not null
+);
+
+CREATE TABLE estado_ventas(
+
+	id_estado_ventas int not null primary key,
+    descripcion_estado_ventas varchar(20) not null,
+    estado_venta_prov int not null
+);
+

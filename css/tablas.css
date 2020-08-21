@@ -1,0 +1,40 @@
+#myTable_previous,#myTable_next,.dataTables_empty
+{
+  display:none;
+}
+
+table.dataTable thead th {
+border-bottom: 0;
+border-bottom: 2px solid #dee2e6;
+}
+table.dataTable tfoot th {
+border-top: 0;
+}
+
+table.dataTable.no-footer {
+border-bottom: 0;
+}
+
+/*.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+background: none;
+color: black!important;
+border-radius: 4px;
+border: 1px solid #828282;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+background: none;
+color: black!important;
+border-radius: 4px;
+border: 1px solid #828282;
+
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+background: none;
+color: black!important;
+border-radius: 4px;
+border: 1px solid #828282;
+}
+*/
+
